@@ -1,3 +1,8 @@
+body {
+    background-image: url(images/bg.jpg);
+    background-size: 193%;
+}
+
 .col {
     padding-top: 174px;
 }
@@ -13,4 +18,41 @@
 
 img {
     width: 1920px;
+    position: absolute;
+}
+
+.kart {
+    position: absolute;
+    padding-left: 153px;
+    color: white;
+    font-size: 150%;
+}
+
+#k1{
+    padding-top: 30px;
+}
+
+#k2{
+    padding-top: 80px;
+}
+
+#k3{
+    padding-top: 130px;
+}
+
+#k4{
+    padding-top: 180px;
+}
+
+#k5{
+    padding-top: 230px;
+}
+
+#k6{
+    padding-top: 280px;
+}
+
+.button {
+    padding-top: 358px;
+    
 }
