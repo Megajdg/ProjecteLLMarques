@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -26,13 +26,30 @@
                     <div class="kart" style= "left: 0px;" id="k1">🚗</div>
                     <div class="kart" id="k2">🚘</div>
                     <div class="kart" id="k3">🚙</div>
-                    <div class="kart" id="k4">🚐</div>
-                    <div class="kart" id="k5">🏎️</div>
+                    <div class="kart" id="k4">🚐</div> 
+                    <div class="kart" id="k5">🚐</div>
                     <div class="kart" id="k6">🛺</div>
                 </div>
                 <div class="button">
                     <button id="start">Empezar carrera</button>
                 </div>
+                <div class="apostar">
+                    <p>Puntos disponibles: <span id="puntos">100</span></p>
+                    <label for="apostar">Puntos a apostar:</label>
+                    <input type="number" id="apostar" min="1" max="100" value="10">
+                    <p>Elige un corredor:</p>
+                    <select id="corredor">
+                        <option value="1">Corredor 1</option>
+                        <option value="2">Corredor 2</option>
+                        <option value="3">Corredor 3</option>
+                        <option value="4">Corredor 4</option>
+                        <option value="5">Corredor 5</option>
+                        <option value="6">Corredor 6</option>
+                    </select>
+                    <button id="apuesta">Apostar</button>
+                    <p id="resultado"></p>
+                </div>
+                
             </div>
         </div>
     </div>
