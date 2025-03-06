@@ -21,39 +21,38 @@ img {
     position: absolute;
 }
 
-.kart {
-    position: absolute;
-    padding-left: 153px;
-    color: white;
-    font-size: 150%;
+.kart img {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
 }
 
-#k1{
+
+#k1 {
     padding-top: 30px;
 }
 
-#k2{
-    padding-top: 80px;
+#k2 {
+    padding-top: 50px;
 }
 
-#k3{
-    padding-top: 130px;
+#k3 {
+    padding-top: 50px;
 }
 
-#k4{
-    padding-top: 180px;
+#k4 {
+    padding-top: 50px;
 }
 
-#k5{
-    padding-top: 230px;
+#k5 {
+    padding-top: 50px;
 }
 
-#k6{
-    padding-top: 280px;
+#k6 {
+    padding-top: 50px;
 }
 
 .button {
-    padding-top: 358px;
+    padding-top: 100px;
     
 }
 

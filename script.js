@@ -47,7 +47,7 @@ $(function () {
         if (posXK1 >= 1600) {
             victoria = true;
             winner = 1;
-            evaluarResultado(apuesta, corredorElegido); // Evaluar el resultado
+            evaluarResultado(apuesta, corredorElegido);
             return;
         }
 
