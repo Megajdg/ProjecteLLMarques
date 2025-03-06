@@ -21,7 +21,7 @@
                 <div>
                     <img src="images/map.jpg" alt="">
                 </div>
-                <div class="pista"> <!-- Contenedor relativo para los karts -->
+                <div class="pista">
                     <div class="kart" id="k1"><img src="images/car1.png" alt="Car 1"></div>
                     <div class="kart" id="k2"><img src="images/car2.png" alt="Car 2"></div>
                     <div class="kart" id="k3"><img src="images/car3.png" alt="Car 3"></div>
@@ -29,23 +29,26 @@
                     <div class="kart" id="k5"><img src="images/car5.png" alt="Car 5"></div>
                     <div class="kart" id="k6"><img src="images/car6.png" alt="Car 6"></div>
                 </div>
-                <div class="button">
-                    <button id="start">Empezar carrera</button>
-                </div>
                 <div class="apostar">
-                    <p>Puntos disponibles: <span id="puntos">100</span></p>
-                    <label for="apostar">Puntos a apostar:</label>
-                    <input type="number" id="apostar" min="1" max="100" value="10">
-                    <p>Elige un corredor:</p>
+                    <div class="button">
+                        <button id="start">¡EMPEZAR CARRERA!</button>
+                    </div>
+                    <p class="text">PUNTOS DISPONIBLES: <span id="puntos">100</span></p>
+                    <p class="text">MULTIPLICADOR x<span id="multiplicador">1</span></p>
+                    <label class="text" for="apostar">APUESTA:</label>
+                    <input type="number" class="text" id="apostar" min="1" max="100" value="10">
+                    <p class="text">ELIGE UN CORREDOR:
                     <select id="corredor">
-                        <option value="1">Corredor 1</option>
-                        <option value="2">Corredor 2</option>
-                        <option value="3">Corredor 3</option>
-                        <option value="4">Corredor 4</option>
-                        <option value="5">Corredor 5</option>
-                        <option value="6">Corredor 6</option>
+                        <option class="text" value="1">MARIO</option>
+                        <option class="text" value="2">LUIGI</option>
+                        <option class="text" value="3">PEACH</option>
+                        <option class="text" value="4">BOWSER</option>
+                        <option class="text" value="5">KOOPA</option>
+                        <option class="text" value="6">TOAD</option>
+                    </p>
                     </select>
-                    <button id="apuesta">Apostar</button>
+                    <button class="button-mini" id="apuesta">APOSTAR</button>
+                    <button class="button-mini" id="reinicio">REINICIAR</button>
                     <p id="resultado"></p>
                 </div>
             </div>

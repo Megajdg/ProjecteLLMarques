@@ -22,37 +22,79 @@ img {
 }
 
 .kart img {
-    width: 50px; /* Ajusta el tamaño según sea necesario */
+    width: 50px;
     height: auto;
 }
 
 
 #k1 {
-    padding-top: 30px;
+    padding-top: 25px;
+    padding-left: 150px;
+    position: absolute;
 }
 
 #k2 {
-    padding-top: 50px;
+    padding-top: 80px;
+    padding-left: 150px;
+    position: absolute;
 }
 
 #k3 {
-    padding-top: 50px;
+    padding-top: 130px;
+    padding-left: 150px;
+    position: absolute;
 }
 
 #k4 {
-    padding-top: 50px;
+    padding-top: 180px;
+    padding-left: 150px;
+    position: absolute;
 }
 
 #k5 {
-    padding-top: 50px;
+    padding-top: 230px;
+    padding-left: 150px;
+    position: absolute;
 }
 
 #k6 {
-    padding-top: 50px;
+    padding-top: 280px;
+    padding-left: 150px;
+    position: absolute;
 }
 
 .button {
-    padding-top: 100px;
-    
+    padding-left: 35px;
+    padding-bottom: 5px;
 }
 
+.button-mini {
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-weight: 600;
+}
+
+#start {
+    font-weight: 1000;
+    padding: 0px 10px;
+}
+
+.apostar {
+    background-image: linear-gradient(180deg, aqua, yellow);
+    margin-left: 850px;
+    padding: 10px 10px;
+    width: 300px;
+    border: 5px solid black;
+    border-top: 362px solid black;
+} 
+
+#corredor {
+    margin: 5px 0px;
+    font-weight: 600;
+}
+
+.text {
+    padding: 5px;
+    font-weight: 600;
+}
