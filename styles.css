@@ -1,0 +1,58 @@
+body {
+    background-image: url(images/bg.jpg);
+    background-size: 193%;
+}
+
+.col {
+    padding-top: 174px;
+}
+
+.container {
+    margin: 0px;
+    padding:0px;
+}
+
+#start {
+    width:200px;
+}
+
+img {
+    width: 1920px;
+    position: absolute;
+}
+
+.kart img {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}
+
+
+#k1 {
+    padding-top: 30px;
+}
+
+#k2 {
+    padding-top: 50px;
+}
+
+#k3 {
+    padding-top: 50px;
+}
+
+#k4 {
+    padding-top: 50px;
+}
+
+#k5 {
+    padding-top: 50px;
+}
+
+#k6 {
+    padding-top: 50px;
+}
+
+.button {
+    padding-top: 100px;
+    
+}
+
