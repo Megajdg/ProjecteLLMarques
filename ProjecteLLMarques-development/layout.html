@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armario Kart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div>
+                    <img src="images/map.jpg" alt="">
+                </div>
+                <div class="pista">
+                    <div class="kart" id="k1"><img src="images/car1.png" alt="Car 1"></div>
+                    <div class="kart" id="k2"><img src="images/car2.png" alt="Car 2"></div>
+                    <div class="kart" id="k3"><img src="images/car3.png" alt="Car 3"></div>
+                    <div class="kart" id="k4"><img src="images/car4.png" alt="Car 4"></div>
+                    <div class="kart" id="k5"><img src="images/car5.png" alt="Car 5"></div>
+                    <div class="kart" id="k6"><img src="images/car6.png" alt="Car 6"></div>
+                </div>
+                <div class="apostar">
+                    <div class="button">
+                        <button id="start">¡EMPEZAR CARRERA!</button>
+                    </div>
+                    <p class="text">PUNTOS DISPONIBLES: <span id="puntos">100</span></p>
+                    <p class="text">MULTIPLICADOR x<span id="multiplicador">1</span></p>
+                    <label class="text" for="apostar">APUESTA:</label>
+                    <input type="number" class="text" id="apostar" min="1" max="100" value="10">
+                    <p class="text">ELIGE UN CORREDOR:
+                    <select id="corredor">
+                        <option class="text" value="1">MARIO</option>
+                        <option class="text" value="2">LUIGI</option>
+                        <option class="text" value="3">PEACH</option>
+                        <option class="text" value="4">BOWSER</option>
+                        <option class="text" value="5">KOOPA</option>
+                        <option class="text" value="6">TOAD</option>
+                    </p>
+                    </select>
+                    <button class="button-mini" id="apuesta">APOSTAR</button>
+                    <button class="button-mini" id="reinicio">REINICIAR</button>
+                    <p id="resultado"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
